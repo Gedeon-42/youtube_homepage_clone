@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+img{
+    cursor: pointer;
+}
+.top-header{
+    position: sticky;
+    padding: 12px 22px;
+    justify-content: space-between;
+}
+
+.flex-div{
+display: flex;
+align-items: center;
+}
+.left-div a{
+text-decoration: none;
+color:#333;
+padding-left:12px;
+}
+.left-div p{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+.left-div button{
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 12px;
+    border: 0.5px solid #333;
+    width: 50px;
+
+}
+.right-div a{
+    padding-left: 23px;
+    padding-right: 23px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.great-button{
+    border-radius: 15px;
+    padding: 12px 14px;
+    background-color: #ffc0cb;
+}
+.great-button  button{
+border-radius: 8px;
+padding: 5px;
+border: 0.5px solid #333;
+margin-left: 3px;
+}
+.great-button p{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+.login button{
+    border-radius: 15px;
+    padding: 13px 17px;
+    text-transform: capitalize;
+    background-color:mediumseagreen;
+    color: #ffff;
+    border: 0;
+    font-size: 18px;
+}
+.left-nav img{
+    width: 30px;
+}
+nav{
+    justify-content: space-between;
+    background:#111 ;
+    width: 100%;
+    position: sticky;
+}
+
+.left-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f1f1f1;
+    padding: 8px 16px;
+}
+.right-nav img{
+    width: 20px;
+    border-radius: 50%;
+}
+.wrap{
+    display: flex;
+}
+.side-bar{
+    flex-basis:25%;
+    overflow: scroll;
+    padding: 12px;
+}
+.side-bar input{
+padding: 12px auto;
+}
+.main{
+    flex-basis: 50%;
+}
+.aside{
+    flex-basis: 25%;
+    background: gray;
+}
+
+
